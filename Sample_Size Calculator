@@ -1,0 +1,37 @@
+Q1. Why to determine Sample Size?
+
+Determining the sample size is crucial because it allows you to draw conclusions about a much larger group (the Population) by only surveying a small, representative portion of it (the Sample).
+
+Purpose of Determining Sample Size:
+
+Representativeness: To find the minimum recommended size of your survey so that the sample accurately reflects the target population.
+
+Reliability: To get results that are as precise as possible. If you interview the minimum recommended number of people, your results will reflect the target population's characteristics with the necessary degree of confidence and margin of error.
+
+Cost and Time Efficiency: It ensures you don't waste resources by surveying too many people, while still gathering enough data to be statistically significant and useful.
+
+Q2. How to Calculate Sample Size?
+
+The minimum required Sample Size is determined by a statistical formula that considers the level of confidence you need, the amount of error you can tolerate, and the characteristics of the population.
+
+The Formula:
+
+{Sample Size} = Z^2 \times \frac{(\text{percentage picking a choice}) \times (1 - \text{percentage picking a choice})}{(\text{Margin of error})^2}
+
+Explanation of the Variables:
+
+Z-value ($Z^2$): This corresponds to your chosen Confidence Level. It indicates how many standard deviations away from the mean a value is. For a 95% Confidence Level, the standard Z-score is typically 1.96 (the diagram uses this to calculate the final Sample Size of 370).
+
+Percentage Picking a Choice (50%): This is the estimated proportion of people in the population who possess the characteristic you are studying. When you have no prior data, using 50% (0.50) is the most conservative choice because it maximizes the required sample size, ensuring your sample is large enough for any possible outcome.
+
+Margin of Error (4.60% or 0.046): This is the maximum amount of difference you are willing to allow between the sample results and the true population value (see Q3).
+
+Q3. What is Margin of Error?
+
+The Margin of Error defines the amount of error you can tolerate in your survey results.
+
+Definition: It is a confidence interval that tells you how close your sample results are likely to be to the true population value.
+
+Example (from the diagram): If a poll has a Margin of Error of plus or minus 3 percentage points and the result shows 51% of your sample picked an answer, the true population value is likely to fall between 48% (51% - 3%) and 54% (51% + 3%).
+
+Relationship to Confidence Level: The Margin of Error is usually reported in combination with the Confidence Level (e.g., "95% confidence interval, with a 4.6% margin of error"). This means if you were to run the exact same survey 100 times, the true population value would fall within that margin of error 95 times.
